@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zhimai</string>
+    <string name="app_browser_name">Universal Browser</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_news">Practice Center</string>
+    <string name="menu_trending">Learning Center</string>
+    <string name="menu_profile">Profile Center</string>
+    <string name="menu_community">Community Center</string>
+
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_issues">Issues</string>
+    <string name="menu_starred">Favorites</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+
+    <string name="about_copyright">© %1$s tlocdx All rights reserved.</string>
+    <string name="about_item_homepage">About Us</string>
+    <string name="about_item_author_github">Contact Author</string>
+    <string name="url_project_github">https://github.com/tlocd/AppMxT</string>
+    <string name="url_author_github">https://github.com/tlocd/AppMxT</string>
+
+    <string name="lab_yes">Yes</string>
+    <string name="lab_no">No</string>
+    <string name="lab_open_third_app">Allow this page to open third-party apps?</string>
+
+    <!-- Privacy Policy Popup -->
+    <string name="lab_exit_app">Exit App</string>
+    <string name="lab_agree">Agree</string>
+    <string name="lab_disagree">Disagree</string>
+    <string name="lab_look_again">View Again</string>
+    <string name="lab_still_disagree">Still Disagree</string>
+    <string name="title_reminder">Friendly Reminder</string>
+    <string name="content_think_about_it_again">Would you like to reconsider?</string>
+    <string name="content_privacy_explain_again">We value the protection of your personal information and promise to strictly adhere to the &quot;%s Privacy Policy&quot; to protect and process your information. If you disagree with the policy, unfortunately, we will not be able to provide you with our services.</string>
+    <string name="lab_privacy_name">&quot;%s Privacy Policy&quot;</string>
+
+    <!-- Login -->
+    <string name="title_login_register">Login/Register</string>
+    <string name="action_get_verify_code">Get Verification Code</string>
+    <string name="title_login">Login</string>
+    <string name="title_login_by_verify_code">Login with Verification Code</string>
+    <string name="title_register">Register</string>
+    <string name="lab_forget_password">Forgot Password?</string>
+    <string name="lab_login_by_verify_code">Login with Verification Code</string>
+    <string name="lab_login_by_password">Login with Password</string>
+    <string name="tip_please_input_phone_number">Please enter your email</string>
+    <string name="title_phone_number">Email</string>
+    <string name="title_password">Password</string>
+    <string name="title_old_password">Old Password</string>
+    <string name="hint_please_input_verify_code">Please enter the verification code</string>
+    <string name="lab_verify_code">Verification Code</string>
+    <string name="tip_password_error">Password must be 8-18 characters long and a combination of letters and numbers!</string>
+    <string name="tip_new_password_error">New password must be 8-18 characters long and a combination of letters and numbers!</string>
+    <string name="tip_phone_number_error">Invalid email address!</string>
+    <string name="regex_phone_number">^((13[0-9])|(14[5,7])|(15[0-3,5-9])|(16[6])|(17[0,1,3,5-8])|(18[0-9])|(19[8,9]))\\d{8}$</string>
+    <string name="tip_verify_code_error">Please enter a 6-digit verification code</string>
+    <string name="regex_verify_code">^\\d{6}$</string>
+    <string name="regex_password">^(?:(?=.*[a-zA-Z])(?=.*[0-9])).{8,18}$</string>
+    <string name="regex_email">^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$</string>
+    <string name="title_forget_password">Reset Password</string>
+    <string name="lab_register_account">By registering, you agree to</string>
+    <string name="lab_service_protocol"><![CDATA[<User Agreement>]]></string>
+    <string name="lab_logout_confirm">Are you sure you want to log out?</string>
+    <string name="title_user_protocol">User Agreement</string>
+    <string name="title_privacy_protocol">Privacy Policy</string>
+    <string name="agree_protocol">I have read and agree to</string>
+    <string name="lab_and">and</string>
+    <string name="maixiang_feature">Pulse Feature</string>
+    <string name="main_disease">Main Disease</string>
+    <string name="tixiang_song">Body Image Song</string>
+    <string name="main_disease_song">Main Disease Song</string>
+
+    <string name="title_jump_login">Register</string>
+    <string name="label_previous">Previous</string>
+    <string name="label_next">Next</string>
+    <string name="tip_ignore_message">Don’t show this type of message again</string>
+    <string name="tip_title">Motivational Tip</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+    <string name="last">Previous</string>
+    <string name="again_try">Try again</string>
+    <string name="next">Next</string>
+    <string name="end">End</string>
+    <string name="ip">127.0.0.1</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language_label">Language: English</string>
+</resources>
