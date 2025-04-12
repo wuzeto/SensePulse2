@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 脉象名称 -->
+    <TextView
+        android:id="@+id/tvMaixiangName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="脉象名称"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!-- 脉象特征 -->
+    <TextView
+        android:id="@+id/tvMaixiangFeature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="脉象特征"
+        android:textSize="40dp"
+        android:textColor="#666666"
+        android:fontFamily="sans-serif" />
+
+    <!-- 主要病症 -->
+    <TextView
+        android:id="@+id/tvMaixiangDisease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主要病症"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:fontFamily="sans-serif" />
+    <CheckBox
+        android:id="@+id/checkBoxSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tv_exam_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="试卷标题"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_exam_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间范围" />
+
+    <TextView
+        android:id="@+id/tv_exam_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="目标班级" />
+</LinearLayout>

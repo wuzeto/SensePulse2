@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 显示题目的 TextView -->
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="题目内容"
+        android:textSize="18sp" />
+
+    <!-- 用于显示选项的 RadioGroup -->
+    <RadioGroup
+        android:id="@+id/optionsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- 选项会动态添加 -->
+    </RadioGroup>
+
+    <!-- 显示硬件连接状态 -->
+    <TextView
+        android:id="@+id/hardwareStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="硬件连接状态: 未连接"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- 合并设备状态和振动状态，改为“开始”按钮 -->
+
+    <!-- 上一题、提交、下一题按钮 -->
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/color_light_blue"
+        android:text="开始" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一题"
+            android:backgroundTint="@color/color_light_blue"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="提交"
+            android:backgroundTint="@color/color_light_blue"/>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一题"
+            android:backgroundTint="@color/color_light_blue"/>
+    </LinearLayout>
+    <com.xuexiang.template.exam.xy.PointsWaveformView
+        android:id="@+id/waveformView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

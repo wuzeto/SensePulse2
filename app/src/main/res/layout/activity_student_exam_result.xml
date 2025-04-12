@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 显示考试信息 -->
+    <TextView
+        android:id="@+id/tv_exam_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="考试标题"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_exam_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="考试日期"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_total_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="总题数: 0"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_wrong_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="错误题数: 0"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- 显示考试结果列表 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_exam_results"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingTop="8dp" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Switch
+        android:id="@+id/switch_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启推送通知" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通知类型"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_new_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新消息通知" />
+
+    <CheckBox
+        android:id="@+id/checkbox_updates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新通知" />
+
+    <CheckBox
+        android:id="@+id/checkbox_community_updates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="社区动态通知" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="推送频率"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radio_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="即时" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每天一次" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每周一次" />
+    </RadioGroup>
+
+    <!-- 其他设置 -->
+
+</LinearLayout>

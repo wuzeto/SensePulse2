@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 脉诊器使用步骤 -->
+        <TextView
+            android:id="@+id/tv_pulse_usage_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="脉诊器的使用步骤"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_pulse_usage_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 连接脉诊器到设备。\n2. 选择所需要的脉象。\n3. 通过应用中的开始按钮启动脉象模拟。\n4. 完成测量后，可以保存和分享测量结果。"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- 社区功能介绍 -->
+        <TextView
+            android:id="@+id/tv_community_intro_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="社区功能介绍"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_community_intro_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 在社区中，用户可以发表、收藏帖子。\n2. 通过发帖或评论，与其他中医爱好者互动，分享脉诊经验。\n3. 社区中的帖子按照主题和人气分类，方便查找热门内容。"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- 常见问题解答 -->
+        <TextView
+            android:id="@+id/tv_faq_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="常见问题解答 (FAQ)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_faq_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1: 无法连接脉诊器怎么办？\nA1: 请确保设备电量充足，检查蓝牙是否开启，并尝试重启设备。\n\nQ2: 如何保存脉诊结果？\nA2: 测量完成后，点击保存按钮，脉诊结果会自动保存到应用内的历史记录中。\n\nQ3: 如何在社区中发帖？\nA3: 进入社区页面后，点击右下角的“发帖”按钮，填写内容并点击发布。"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+</ScrollView>
